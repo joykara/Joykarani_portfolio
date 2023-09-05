@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import bitmoji from '../../assets/favicon2.png';
 
 const About = () => {
   return (
@@ -8,6 +9,9 @@ const About = () => {
             <hr /><h2>ABOUT ME</h2>
           </div>
           <div className="about-details">
+              <div className="about-details-image">
+                <img src={bitmoji} alt="" />
+              </div>
               <div className="about-details-left">
                   <h3>Who Am I?</h3>
                   <hr />

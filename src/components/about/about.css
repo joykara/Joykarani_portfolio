@@ -19,6 +19,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .about-details{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,20 +78,17 @@
     color: var(--color-tertiary);
 }
 .about-details-image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40%;
-    height: 80%;
-    padding: 0 1rem;
+    width: 100px;
+    height: auto;
+    margin-top: 2rem;
+    justify-self: flex-start;
+    align-self: flex-start;
 }
 .about-details-image img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* filter: grayscale(96%); */
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    border-radius: 50%;
 }
 
 
@@ -98,8 +96,9 @@
 @media screen and (max-width: 768px){
     .about-container{
         margin-top: 1rem;
-        height: 100vh;
+        height: auto;
         justify-content: flex-start;
+        padding: 2rem 0;
     }
     .about-title{
         margin-bottom: 1rem;
@@ -122,17 +121,5 @@
     }
     .about-details-left p{
         padding: 1rem 0;
-    }
-    .about-details-image{
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
-    }
-    .about-details-image img{
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0,0,0,.2);
     }
 }
