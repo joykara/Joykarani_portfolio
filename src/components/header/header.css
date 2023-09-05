@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #ffffff;
     height: 100vh;
 }
 .header-container .blob{
@@ -21,10 +21,10 @@
     color: #fffdf6;
 }
 .header-title h1{
-    font-size: clamp(1.5rem, 5vw, 3rem);
+    font-size: clamp(2.5rem, 5vw, 4rem);
     padding-bottom: 1rem;
     font-family: var(--font-family);
-    color: var(--color-tertiary);
+    color: var(--color-quinary);
     width: auto;
 }
 /* animate the h1 title with colors on hover */
@@ -34,7 +34,7 @@
 }
 @keyframes animate{
     0%{
-        color: #d8d3e2;
+        color: #16033b;
     }
     50%{
         color: #b9a2ec;
@@ -44,15 +44,19 @@
     }
 }
 .header-title .typed-text{
-    color: #d8d3e2;
+    color: #0f0129;
     font-weight: 400;
     font-family: var(--font-family);
-
 }
 .header-title p{
     width: 60%;
     margin: 1rem auto 0;
     padding-bottom: 2rem;
+    color: #000000;
+}
+.header-title .Typewriter span{
+    color: var(--color-quinary);
+    font-size: clamp(1.2rem, 1.5vw, 1.5rem);
 }
 .header-social-links{
     display: flex;
@@ -84,10 +88,10 @@
     align-items: flex-start;
     height: 100px;
     margin-top: 3rem;
-    color: #ffffff;
+    color: #000000;
 }
 .header-details-left h2{
-    color: #ffffff;
+    color: #000000;
     padding-left: .5rem;
 }
 .header-details-left ul{
@@ -99,7 +103,7 @@
 .header-details-left ul li{
     margin: 0 1rem 0 0;
     padding: 2rem 1rem ;
-    color: #ffffff;
+    color: #000000;
     border-right: 1px solid #ffffffa1;
     font-family: var(--font-family);
 }

@@ -13,7 +13,7 @@ const About = () => {
                   <hr />
                   <p>I'm Joy Karani, passionate self-taught fullstack developer with a love for crafting clean, elegant, and user-friendly digital experiences and a background in Mathematics and Computer Science. I'm currently a student at <a href="https://www.jkuat.ac.ke/">Jomo Kenyatta University of Agriculture and Technology</a></p>
                   <p>What truly ignites my drive is the synergy between frontend and backend - the thrill of seamlessly connecting the dots to deliver holistic solutions. Whether it's refining user flows or diving deep into coding challenges, I'm always eager to learn and adapt to new technologies and industry trends.</p>
-                  <button><a href="#projects">VIEW PROJECTS</a></button>
+                  <button><a href="https://github.com/joykara">VIEW PROJECTS</a></button>
               </div>
           </div>
     </div>

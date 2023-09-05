@@ -14,6 +14,7 @@ const Contact = () => {
     }
   };
 
+  window.addEventListener('scroll', checkScrollTop);
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -47,7 +48,7 @@ const Contact = () => {
   // set up contact form email.js
 
   return (
-    <div className="contact-container">
+    <div className="contact-container" id='contact'>
         <form className="contact-form" onSubmit={handleSubmit}>
               <h4>CONNECT WITH ME</h4>
               <hr />
