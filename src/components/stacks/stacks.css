@@ -59,6 +59,7 @@
 @media screen and (max-width: 768px){
     .stacks-container{
         height: auto;
+        margin: 1rem 0;
     }
     .stacks-title{
         width: 100%;

@@ -34,13 +34,13 @@
 }
 @keyframes animate{
     0%{
-        color: #16033b;
+        color: #cab1fc;
     }
     50%{
         color: #b9a2ec;
     }
     100%{
-        color: var(--color-tertiary);
+        color: #b1cefc;
     }
 }
 .header-title .typed-text{
