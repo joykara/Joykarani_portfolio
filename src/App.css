@@ -64,7 +64,7 @@ hr{
   font-size: clamp(1rem, 1.5vw, 1.2rem);
   font-weight: 400;
   font-family: 'Josefin Sans', sans-serif;
-  color: #ffffff;
+  color: var(--color-quinary);
   margin-left: 3rem;
 }
 .logo:hover{

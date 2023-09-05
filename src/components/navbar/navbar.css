@@ -4,7 +4,7 @@
     align-items: center;
     padding: 1.5rem 1.5rem 1rem;
     width: 100%;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 .navbar-logo{
     display: flex;
@@ -12,7 +12,7 @@
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #ffffff;
+    color: #000000;
 }
 .navbar-logo img{
     width: 50px;
@@ -29,7 +29,7 @@
 }
 .navbar-links li a,
 .navbar-menu-mobile ul li a{
-    color: #ffffff;
+    color: #000000;
     font-weight: 500;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -69,7 +69,7 @@
 .navbar-links li:last-child button,
 .navbar-menu-mobile ul li:last-child button {
     border: 1px solid #ffffff;
-    color: #ffffff;
+    color: #000000;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     font-size: clamp(.8rem, 1.1vw, 1.1rem);
@@ -93,7 +93,7 @@
     flex-direction: column;
     align-items: center;
     cursor: pointer;
-    color: #ffffff;
+    color: #000000;
   }
 
   .navbar-links {

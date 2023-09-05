@@ -14,17 +14,20 @@ const Header = () => {
           {/* use TypeWriterComponent */}
           <TypewriterComponent className="typed-text"
             options={{
-              strings: ['Web Developer', 'Designer', 'Freelancer'],
+              strings: [
+                      "Frontend Developer",
+                      "Backend Developer",
+                      "Full Stack Developer"
+              ],
               autoStart: true,
               loop: true,
             }}
           />
           <p>Freelancer providing web development and design services. I'm always eager to learn and adapt to new technologies and industry trends.</p>
           <div className="header-social-links">
-            <a href="https://twitter.com/"><FaTwitter color='black' size={30} /></a>
+            <a href="https://twitter.com/kokkuri_sa"><FaTwitter color='black' size={30} /></a>
             <a href="https://www.instagram.com/"><FaInstagram color='black' size={30} /></a>
-            <a href="https://www.linkedin.com"><FaLinkedinIn color='black' size={30}/></a>
-            <a href="https://www.youtube.com/"><FaGithub color='black' size={30} /></a>
+            <a href="https://www.linkedin.com/in/joy-k-aba15b206/"><FaLinkedinIn color='black' size={30}/></a>
           </div>
         </div>
         <div className="header-details">
