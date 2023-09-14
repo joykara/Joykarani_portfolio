@@ -1,7 +1,6 @@
 import React from 'react';
 import './header.css';
 import { FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa';
-
 import blob from '../../assets/blobanimation.svg';
 import TypewriterComponent from 'typewriter-effect';
 
@@ -27,7 +26,8 @@ const Header = () => {
           <div className="header-social-links">
             <a href="https://twitter.com/kokkuri_sa"><FaTwitter color='black' size={30} /></a>
             <a href="https://www.instagram.com/"><FaInstagram color='black' size={30} /></a>
-            <a href="https://www.linkedin.com/in/joy-k-aba15b206/"><FaLinkedinIn color='black' size={30}/></a>
+            <a href="https://www.linkedin.com/in/joy-k-aba15b206/"><FaLinkedinIn color='black' size={30} /></a>
+            <a href="https://github.com/joykara"><FaGithub color='black' size={30} /></a>
           </div>
         </div>
         <div className="header-details">
