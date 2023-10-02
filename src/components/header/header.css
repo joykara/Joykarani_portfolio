@@ -6,6 +6,7 @@
     align-items: center;
     background-color: #ffffff;
     height: 90vh;
+    z-index: -1;
 }
 .header-container .blob{
     position: absolute;
