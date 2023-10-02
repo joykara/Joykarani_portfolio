@@ -33,6 +33,9 @@
     font-weight: 500;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.navbar-menu-mobile ul li a{
+    color: #ffffff;
+}
 .navbar-toggle {
     display: none;
 }
