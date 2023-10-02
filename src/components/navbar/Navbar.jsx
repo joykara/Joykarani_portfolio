@@ -23,7 +23,7 @@ const Navbar = () => {
             </div>
             {/* hamburger navbar */}
             <div className={`navbar-toggle ${toggleMenu ? 'active' : ''}`} onClick={handleToggle}>
-                {toggleMenu ? <RiCloseLine size={25} color='white'/> : <RiMenuLine size={25} color='white'/>}
+                {toggleMenu ? <RiCloseLine size={25} color='black'/> : <RiMenuLine size={25} color='white'/>}
                 {toggleMenu && (
                 <nav className="navbar-menu-mobile">
                     <ul>
