@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
       <div className="navbar-container">
             <div className="navbar-logo">
-                <h2 className='logo'>JOYKARA</h2>
+                <a href="/"><h2 className='logo'>JOYKARA</h2></a>
             </div>
             <div>
                 <ul className="navbar-links">
