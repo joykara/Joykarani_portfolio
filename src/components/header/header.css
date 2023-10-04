@@ -71,7 +71,10 @@
     margin: 0 1rem;
     cursor: pointer;
 }
+
+.header-social-links a:hover,
 .header-social-links a:hover svg{
+    color: var(--color-secondary);
     fill: var(--color-secondary);
 }
 .header-details{
