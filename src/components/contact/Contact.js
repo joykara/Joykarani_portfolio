@@ -1,4 +1,5 @@
-import React, {useState} from 'react';
+import React, { useState, useRef } from 'react';
+import emailjs from 'emailjs-com';
 import './contact.css';
 import { BsArrowUpCircle } from 'react-icons/bs';
 // import { db } from '../../firebase/config';
@@ -16,6 +17,8 @@ const Contact = () => {
 
   window.addEventListener('scroll', checkScrollTop);
 
+  const form = useRef();
+
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
@@ -25,31 +28,27 @@ const Contact = () => {
   // submit form
   const handleSubmit = (e) => {
     e.preventDefault();
-    // db.collection('contacts').add({
-    //     name: name,
-    //     email: email,
-    //     date: date,
-    //     number: number,
-    //     message: message,
-    // })
-    // .then(() => {
-    //     alert('Message has been submitted');
-    //     console.log('submitted');
-    // })
-    // .catch((error) => {
-    //     alert(error.message);
-    // });
+
+    // set up contact form email.js
+    emailjs.sendForm('service_kzc70se', 'template_u57gatf', form.current, 'yhqWQg8mSZDeU8lc-' )
+    .then((res) => {
+        alert('Message has been submitted');
+        console.log(res);
+    })
+    .catch((error) => {
+        alert(error.message);
+    });
     setName('');
     setEmail('');
     setMessage('');
     setDate('');
     setNumber('');
   };
-  // set up contact form email.js
+
 
   return (
     <div className="contact-container" id='contact'>
-        <form className="contact-form" onSubmit={handleSubmit}>
+        <form className="contact-form" onSubmit={handleSubmit} ref={form}>
               <h4>CONNECT WITH ME</h4>
               <hr />
               <p>Please fill out the form below, and we'll be in touch.</p>
