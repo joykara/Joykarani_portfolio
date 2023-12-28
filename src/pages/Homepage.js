@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar'
 import Header from '../components/header/Header'
-import { About, Contact, Projects, Stacks } from '../components'
+import { About, Contact, Stacks } from '../components'
 
 const Homepage = () => {
   return (
@@ -10,7 +10,6 @@ const Homepage = () => {
       <Header />
       <About />
       <Stacks />
-      <Projects />
       <Contact />
     </>
   )

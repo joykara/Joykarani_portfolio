@@ -1,15 +1,21 @@
-import React from 'react'
+import React from 'react';
 
-const Card = () => {
+const Card = ({ project }) => {
+  const { title, imgSrc, description, code, link } = project;
+
   return (
     <div className='project-card-content'>
-      <img src="" alt="" />
+      <img src={imgSrc} alt={title} />
       <div className="project-card-info">
-        <p>“I love the coffee here! It's so good and the staff is very friendly. I would definitely recommend this place to anyone who loves coffee!”</p>
-        <button><a href="/">READ MORE</a></button>
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <div className="project-links">
+          <button title='View Code'>{code && <a href={code} target="_blank" rel="noopener noreferrer">View Code</a>}</button>
+          <button title='View Site'>{link && <a href={link} target="_blank" rel="noopener noreferrer">Visit Site</a>} </button>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
