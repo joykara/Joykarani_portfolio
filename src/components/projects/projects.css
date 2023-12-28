@@ -18,20 +18,25 @@
     background-color: var(--color-tertiary);
     margin: .8rem 0 .5rem 0;
 }
-.projects-card-content{
+.project-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+.project-card-content{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     background-color: #ffffff;
-    width: 90%;
-    height: 90%;
     margin: 0 auto;
     padding: 2rem;
     font-size: clamp(.8rem, 1vw, 1rem);
 }
-.projects-card-content::before{
+.project-card-content::before{
     content: '';
     position: absolute;
     top: .5rem;
@@ -40,7 +45,42 @@
     height: 100%;
     border: 1px solid #ffffff;
 }
+.project-card-content img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.project-card-info{
+    border: 1px solid var(--color-secondary);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.project-card-info:hover{
+    background-color: var(--color-tertiary);
+    cursor: pointer;
+}
+.project-links{
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-links button{
+    background-color: white;
+    border: 1px solid var(--color-tertiary);
+    padding: .5rem;
+}
+.project-links button:hover{
+    background-color: var(--color-secondary);
+
+}
 .react-multi-carousel-list{
     width: 90%;
     margin: 0 auto;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 600px){
+    /* Make the cards stack on mobile but still be displayed horizontally when larger screens are used*/
+    .project-cards{
+        width: 100%;
+    }
 }
