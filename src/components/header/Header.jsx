@@ -24,10 +24,10 @@ const Header = () => {
           />
           <p>Freelancer providing web development and design services. I'm always eager to learn and adapt to new technologies and industry trends.</p>
           <div className="header-social-links">
-            <a href="https://twitter.com/kokkuri_sa"><FaTwitter color='black' size={30} /></a>
-            <a href="https://www.instagram.com/"><FaInstagram color='black' size={30} /></a>
-            <a href="https://www.linkedin.com/in/joy-k-aba15b206/"><FaLinkedinIn color='black' size={30} /></a>
-            <a href="https://github.com/joykara"><FaGithub color='black' size={30} /></a>
+            <a href="https://twitter.com/kokkuri_sa" title="social"><FaTwitter color='black' size={30} /></a>
+            <a href="https://www.instagram.com/" title="social"><FaInstagram color='black' size={30} /></a>
+            <a href="https://www.linkedin.com/in/joy-k-aba15b206/" title="social"><FaLinkedinIn color='black' size={30} /></a>
+            <a href="https://github.com/joykara" title="social"><FaGithub color='black' size={30} /></a>
           </div>
         </div>
         <div className="header-details">
