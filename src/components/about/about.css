@@ -60,6 +60,9 @@
     background-color: var(--color-tertiary);
     cursor: pointer;
     transition: all .3s ease-in-out;
+    color: var(--color-secondary);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
 }
 /* change button::before border color on button:hover */
 .about-details-left .about-button:hover::before{
@@ -68,13 +71,6 @@
 
 .about-details-left .about-button:hover{
     background-color: var(--color-secondary);
-}
-.about-details-left .about-button a{
-    color: var(--color-secondary);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 700;
-}
-.about-details-left .about-button:hover a{
     color: var(--color-tertiary);
 }
 .about-details-image{
