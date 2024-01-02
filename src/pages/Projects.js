@@ -1,7 +1,7 @@
 import React from 'react';
 import '../components/projects/projects.css';
 import Card from '../components/projects/Card.jsx';
-import { Navbar, Contact } from '../components/index.js';
+import { Navbar, Contact, Footer } from '../components/index.js';
 
 
 const Projects = () => {
@@ -18,6 +18,7 @@ const Projects = () => {
         <Card />
       </div>
       <Contact />
+      <Footer />
     </>
   )
 }
