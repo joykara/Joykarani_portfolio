@@ -47,6 +47,7 @@ const Contact = () => {
 
 
   return (
+    <>
     <div className="contact-container" id='contact'>
         <form className="contact-form" onSubmit={handleSubmit} ref={form}>
               <h4>CONNECT WITH ME</h4>
@@ -85,6 +86,8 @@ const Contact = () => {
         <BsArrowUpCircle color='black'/>
       </div>
     </div>
+    </>
+    
   )
 }
 
