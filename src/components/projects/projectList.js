@@ -1,4 +1,5 @@
 import hemllin from '../../assets/project/Hemllin.jpeg';
+import speciappt from '../../assets/project/userHome.jpeg';
 
 const projectList = [
     {
