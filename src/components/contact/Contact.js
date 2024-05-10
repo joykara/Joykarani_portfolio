@@ -1,7 +1,8 @@
 import React, { useState, useRef } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import './contact.css';
 import { BsArrowUpCircle } from 'react-icons/bs';
+import toast from 'react-hot-toast';
 // import { db } from '../../firebase/config';
 
 const Contact = () => {
@@ -28,21 +29,29 @@ const Contact = () => {
   // submit form
   const handleSubmit = (e) => {
     e.preventDefault();
+    const formData = {
+      name,
+      email,
+      message,
+      number,
+      date
+    };
 
     // set up contact form email.js
-    emailjs.sendForm('service_kzc70se', 'template_u57gatf', form.current, 'yhqWQg8mSZDeU8lc-' )
+    emailjs.send('service_kzc70se', 'template_57v5le9', formData, 'yhqWQg8mSZDeU8lc-' )
     .then((res) => {
-        alert('Message has been submitted');
-        console.log(res);
-    })
-    .catch((error) => {
-        alert(error.message);
-    });
+        toast.success('Message has been submitted');
+        console.log('Success!', res.data);
     setName('');
     setEmail('');
     setMessage('');
     setDate('');
     setNumber('');
+    })
+    .catch((error) => {
+      toast.error('Error submitting message');
+      console.log('Error!', error);
+    });
   };
 
 
