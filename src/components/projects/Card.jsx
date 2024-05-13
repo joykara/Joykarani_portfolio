@@ -7,9 +7,9 @@ const Card = () => {
   return (
     <div className='project-cards'>
     {projectList.map((project) => (
-      <div className='project-card-content'key={project.id}>
+      <div className='project-card-content scale-up'key={project.id}>
         <img src={project.imgSrc} alt={project.title} />
-        <div className="project-card-info scale-up">
+        <div className="project-card-info">
           <h3>{project.title}</h3>
           <p>{project.description}</p>
           <div className="project-links">

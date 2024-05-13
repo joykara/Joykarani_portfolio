@@ -29,7 +29,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: flex-start;
     background-color: #ffffff;
     margin: 0 auto;
@@ -58,7 +58,7 @@
 }
 .project-links a{
     background-color: white;
-    border: 1px solid var(--color-quinary);
+    border: 1px solid var(--color-tertiary);
     padding: .5rem;
 }
 .project-links a:hover{
@@ -71,6 +71,33 @@
 }
 
 /* MEDIA QUERIES */
+@media screen and (min-width: 1200px){
+    .project-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .project-card-content{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        height: 100%;
+    }
+    .project-card-content img{
+        height: 300px;
+        max-height: 500px;
+        width: 50%;
+        object-fit: cover;
+        border: none;
+        padding: 0 0 .1rem ;
+        margin-right: 1rem;
+    }
+}
 @media screen and (max-width: 600px){
     /* Make the cards stack on mobile but still be displayed horizontally when larger screens are used*/
     .project-cards{
