@@ -25,10 +25,10 @@ const Header = () => {
         />
         <p>A passionate developer providing web development and design services. My enthusiasm for learning drives me to stay abreast of the latest technologies and industry trends</p>
         <div className="header-social-links">
-          <a href="https://twitter.com/kokkuri_sa" target="_blank" rel="noopener noreferrer" title="social"><FaTwitter color='black' size={30} /></a>
-          <a href="https://www.instagram.com/" title="social"><FaInstagram color='black' size={30} /></a>
-          <a href="https://www.linkedin.com/in/joy-k-aba15b206/" target="_blank" rel="noopener noreferrer" title="social"><FaLinkedinIn color='black' size={30} /></a>
-          <a href="https://github.com/joykara" target="_blank" rel="noopener noreferrer" title="social"><FaGithub color='black' size={30} /></a>
+          <a href="https://twitter.com/kokkuri_sa" target="_blank" rel="noopener noreferrer" title="Twitter"><FaTwitter color='black' size={30} /></a>
+          {/* <a href="https://www.instagram.com/" title="social"><FaInstagram color='black' size={30} /></a> */}
+          <a href="https://www.linkedin.com/in/joy-k-aba15b206/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><FaLinkedinIn color='black' size={30} /></a>
+          <a href="https://github.com/joykara" target="_blank" rel="noopener noreferrer" title="Github"><FaGithub color='black' size={30} /></a>
         </div>
       <div className="resume-box">
           <a href={CVFile} download><button>Download CV</button></a>
