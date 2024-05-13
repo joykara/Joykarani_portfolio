@@ -6,7 +6,7 @@
     align-items: center;
     background-color: #ffffff;
     height: 90vh;
-    z-index: -1;
+    z-index: 2;
 }
 .header-container .blob{
     position: absolute;
@@ -77,51 +77,23 @@
     color: var(--color-secondary);
     fill: var(--color-secondary);
 }
-.header-details{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-.header-details-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100px;
-    margin-top: 3rem;
-    color: #000000;
-}
-.header-details-left h2{
-    color: #000000;
-    padding-left: .5rem;
-}
-.header-details-left ul{
+.resume-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--color-quaternary);
+    width: fit-content;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--color-quinary);
+    border-radius: 5px;
 }
-.header-details-left ul li{
-    margin: 0 1rem 0 0;
-    padding: 2rem 1rem ;
-    color: #000000;
-    border-right: 1px solid #ffffffa1;
-    font-family: var(--font-family);
+.resume-box:hover{
+    background-color: var(--color-quinary);
+    cursor: pointer;
 }
-.header-details-left ul li:last-child{
-    border-right: none;
-    margin: 0;
-}
-.header-details-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
-    visibility: hidden;
+.resume-box:hover a button{
+    color: white;
+    cursor: pointer;
 }
 
 /* MEDIA QUERIES */
@@ -131,26 +103,5 @@
     }
     .header-title p{
         width: 80%;
-    }
-    .header-details{
-        justify-content: space-between;
-        align-items: center;
-    }
-    .header-details-left{
-        margin-bottom: 1rem;
-    }
-    .header-details-left ul{
-        flex-direction: column;
-    }
-    .header-details-left ul li{
-        margin: 0;
-        padding: 1rem 0;
-        border-right: none;
-    }
-    .header-details-left ul li:last-child{
-        margin: 0;
-    }
-    .header-details-right{
-        margin-top: 1rem;
     }
 }
