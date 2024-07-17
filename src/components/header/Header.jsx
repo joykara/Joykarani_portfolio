@@ -16,7 +16,7 @@ const Header = () => {
           options={{
             strings: [
                     "Frontend Developer",
-                    "Backend Developer",
+                    "Backend Enthusiast",
                     "Full Stack Developer"
             ],
             autoStart: true,
