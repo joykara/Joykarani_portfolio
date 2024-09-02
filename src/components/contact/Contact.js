@@ -70,7 +70,7 @@ const Contact = () => {
 
               <div className="contact-form-input">
                 <label>PHONE NUMBER</label>
-                  <input type="tel" placeholder="Number" value={number} onChange={(e) => setNumber(e.target.value) } />
+                  <input type="tel" placeholder="Number" value={number} onChange={(e) => setNumber(e.target.value) } required/>
               </div>
 
               <div className="contact-form-input">
