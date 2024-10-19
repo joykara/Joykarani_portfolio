@@ -24,12 +24,24 @@ const Stacks = () => {
                     <p>Javascript</p>
                 </div>
                 <div className="stacks-content-item">
+                    <img src="https://img.shields.io/badge/tailwind-%23404d59.svg?style=for-the-badge&logo=tailwindcss&logoColor=blue" alt="tailwindcss" />
+                    <p>Tailwind CSS</p>
+                </div>
+                <div className="stacks-content-item">
+                    <img src='https://img.shields.io/badge/typescript-3670A0?style=for-the-badge&logo=typescript&logoColor=white' alt="typescript" />
+                    <p>Typescript</p>
+                </div>
+                <div className="stacks-content-item">
                     <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="python" />
                     <p>Python</p>
                 </div>
                 <div className="stacks-content-item">
                     <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="react" />
                     <p>React</p>
+                </div>
+                <div className="stacks-content-item">
+                    <img src="https://img.shields.io/badge/next-%2320232a.svg?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="next" />
+                    <p>Next</p>
                 </div>
                 <div className="stacks-content-item">
                     <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongodb" />
@@ -44,7 +56,7 @@ const Stacks = () => {
                     <p>Express.js</p>
                 </div>
                 <div className="stacks-content-item">
-                    <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql" />
+                    <img src="https://img.shields.io/badge/mysql-3670A0?style=for-the-badge&logo=mysql&logoColor=white" alt="mysql" />
                     <p>MySQL</p>
                 </div>
                 <div className="stacks-content-item">
