@@ -51,6 +51,9 @@
 .project-card-info:hover{
     border-top: 0;
 }
+.project-card-info p{
+    font-family: var(--links-font-family);
+}
 .project-links{
     display: flex;
     justify-content: space-evenly;
