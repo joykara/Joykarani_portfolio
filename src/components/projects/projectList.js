@@ -1,6 +1,7 @@
 import hemllin from '../../assets/project/Hemllin.jpeg';
 import speciappt from '../../assets/project/userHome.jpeg';
 import coffeeconnect from '../../assets/project/coffeeconnect.jpeg';
+import payd_test from '../../assets/project/payd_test.jpeg';
 
 const projectList = [
     {
@@ -22,6 +23,14 @@ const projectList = [
     },
     {
         id: 3,
+        title: "Post Management Interface",
+        imgSrc: payd_test,
+        description: 'The Post Management Interface is a user-friendly React application that interacts seamlessly with an API to manage posts. It allows users to fetch and view posts, create new posts, and includes a search functionality to filter posts efficiently, enhancing user experience.',
+        code: 'https://github.com/joykara/payd-intern-assessment/tree/master/payd-test',
+        link: 'https://post-management-interface.vercel.app/'
+    },
+    {
+        id: 4,
         title: "Coffee Connection",
         imgSrc: coffeeconnect,
         description: 'Coffee Connection is an engaging landing page designed to elevate the online presence of a coffee shop. This comprehensive web solution offers an array of features tailored to meet the needs of both the coffee shop and its clients showcasing some of the drinks offered.',
