@@ -8,7 +8,7 @@ const Stacks = () => {
           <div className="stacks-title">
               <h3>Tech Stacks</h3>
               <hr />
-              <p>I currently work with MERN stack including;</p>
+              <p>I currently work with the following stacks;</p>
           </div>
           <div className="stacks-content">
                 <div className="stacks-content-item">
