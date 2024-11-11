@@ -27,7 +27,7 @@ const projectList = [
         imgSrc: payd_test,
         description: 'The Post Management Interface is a user-friendly React application that interacts seamlessly with an API to manage posts. It allows users to fetch and view posts, create new posts, and includes a search functionality to filter posts efficiently, enhancing user experience.',
         code: 'https://github.com/joykara/payd-intern-assessment/tree/master/payd-test',
-        link: 'https://post-management-interface.vercel.app/'
+        // link: 'https://post-management-interface.vercel.app/'
     },
     {
         id: 4,
