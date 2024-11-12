@@ -5,6 +5,7 @@
     background-color: #ffffffb8;
     padding: 1.5rem 1.5rem 1rem;
     width: 100%;
+    height: auto;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -54,6 +55,7 @@
     align-items: center;
     background-color: #121212f4;
     padding: 2rem;
+    z-index: 3;
 }
 
 .navbar-menu-mobile ul {
@@ -90,19 +92,19 @@
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
-  .navbar-container {
-    justify-content: space-between;
-  }
+    .navbar-container {
+        justify-content: space-between;
+    }
 
-  .navbar-toggle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    cursor: pointer;
-    color: #000000;
-  }
+    .navbar-toggle {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+        color: #000000;
+    }
 
-  .navbar-links {
-    display: none;
-  }
+    .navbar-links {
+        display: none;
+    }
 }
