@@ -1,4 +1,5 @@
 import hemllin from '../../assets/project/Hemllin.jpeg';
+import movierex from '../../assets/project/movierex.jpeg';
 import speciappt from '../../assets/project/userHome.jpeg';
 import coffeeconnect from '../../assets/project/coffeeconnect.jpeg';
 import payd_test from '../../assets/project/payd_test.jpeg';
@@ -14,6 +15,14 @@ const projectList = [
     },
     {
         id: 2,
+        title: "Movierex",
+        imgSrc: movierex,
+        description: 'Movierex is a dynamic and modern movie recommendation platform designed to allow users to brose through a collection of movies. This application allows the user to view comprehensive details about each movie including: ratings, release dates, genres, and cast information etc',
+        code: 'https://github.com/joykara/movie-app',
+        link:'https://movie-app-peach-eight-75.vercel.app/'
+    },
+    {
+        id: 3,
         title: "SpeciAppt",
         imgSrc: speciappt,
         description: 'SpeciAppt is a dynamic and modern web platform designed to aid in scheduling and booking appointments. Leveraging the power of the MERN stack—MongoDB, Express.js, React, and Node.js—this comprehensive web solution offers an array of features tailored to meet the needs of both the patients and doctors',
@@ -22,7 +31,7 @@ const projectList = [
 
     },
     {
-        id: 3,
+        id: 4,
         title: "Post Management Interface",
         imgSrc: payd_test,
         description: 'The Post Management Interface is a user-friendly React application that interacts seamlessly with an API to manage posts. It allows users to fetch and view posts, create new posts, and includes a search functionality to filter posts efficiently, enhancing user experience.',
@@ -30,7 +39,7 @@ const projectList = [
         // link: 'https://post-management-interface.vercel.app/'
     },
     {
-        id: 4,
+        id: 5,
         title: "Coffee Connection",
         imgSrc: coffeeconnect,
         description: 'Coffee Connection is an engaging landing page designed to elevate the online presence of a coffee shop. This comprehensive web solution offers an array of features tailored to meet the needs of both the coffee shop and its clients showcasing some of the drinks offered.',
