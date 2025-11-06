@@ -3,7 +3,7 @@ import './header.css';
 import { FaTwitter, FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import blob from '../../assets/blobanimation.svg';
 import TypewriterComponent from 'typewriter-effect';
-import CVFile from '../../assets/JoyKarani_CV.pdf'
+import CVFile from '../../assets/Joy_Karani_CV.pdf'
 
 const Header = () => {
   return (
